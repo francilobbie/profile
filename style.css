@@ -42,7 +42,7 @@ a {
 a:hover {
   color: white;
   background-color: rgb(255, 89, 0);
-  transition: 0,2s;
+  transition: 0,3s;
 }
 
 .home_card {

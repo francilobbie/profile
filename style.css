@@ -1,11 +1,11 @@
 body {
   font-family: 'Courier New', Courier, monospace;
-  color: rgb(0, 132, 255);
+  color: rgb(12, 13, 15);
   background-color: antiquewhite;
 }
 
 h1 {
-  color:rgb(143, 83, 0);
+  color:rgb(0, 120, 20);
   font-size: 48px;
   font-weight: bold;
 }
@@ -42,13 +42,14 @@ a {
 a:hover {
   color: white;
   background-color: rgb(255, 89, 0);
+  transition: 0,2s;
 }
 
 .home_card {
   width: 800px;
   margin: 12px auto;
   text-align: center;
-  background: rgb(198, 234, 220);
+  background: #EEEEEE;
   padding: 30px;
   border: 1px solid lightgrey;
   border-radius: 4px;
@@ -59,7 +60,7 @@ a:hover {
   width: 800px;
   margin: 12px auto;
   text-align: center;
-  background: rgb(198, 234, 220);
+  background: #EEEEEE;
   padding: 30px;
   border: 1px solid lightgrey;
   border-radius: 4px;
@@ -70,7 +71,7 @@ a:hover {
   width: 800px;
   margin: 12px auto;
   text-align: center;
-  background:rgb(198, 234, 220);
+  background: #EEEEEE;
   padding: 30px;
   border: 1px solid lightgrey;
   border-radius: 4px;
@@ -82,7 +83,7 @@ a:hover {
   width: 800px;
   margin: 12px auto;
   text-align: center;
-  background:rgb(198, 234, 220);
+  background: #EEEEEE;
   padding: 30px;
   border: 1px solid lightgrey;
   border-radius: 4px;

@@ -1,0 +1,126 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(0, 132, 255);
+  background-color: antiquewhite;
+}
+
+h1 {
+  color:rgb(143, 83, 0);
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(0, 120, 20);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.insta-photo {
+  width: 240px;
+}
+
+#logo {
+  width: 200px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.social-link {
+  color: rgb(255, 89, 0);
+}
+
+a:hover {
+  color: white;
+  background-color: rgb(255, 89, 0);
+}
+
+.home_card {
+  width: 800px;
+  margin: 12px auto;
+  text-align: center;
+  background: rgb(198, 234, 220);
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.web_dev_card {
+  width: 800px;
+  margin: 12px auto;
+  text-align: center;
+  background: rgb(198, 234, 220);
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.hobby_card {
+  width: 800px;
+  margin: 12px auto;
+  text-align: center;
+  background:rgb(198, 234, 220);
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.footer_card {
+  font-size: 40px;
+  width: 800px;
+  margin: 12px auto;
+  text-align: center;
+  background:rgb(198, 234, 220);
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  body {
+    background-color: blueviolet;
+  }
+
+  .footer_card {
+    width: auto;
+    min-width: 300px;
+  }
+
+  .hobby_card {
+    width: auto;
+    min-width: 300px;
+  }
+
+  .home_card {
+    width: auto;
+    min-width: 300px;
+  }
+  .web_dev_card {
+    width: auto;
+    min-width: 300px;
+  }
+}
